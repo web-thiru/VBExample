@@ -1,0 +1,17 @@
+﻿.gridview { /* Style for the entire GridView */
+    width: 902px; /* Set the desired width */
+    border: 3px solid black;
+    font-family: Arial, sans-serif;
+}
+
+    .gridview th { /* Style for header row cells */
+        background-color: #ddd;
+        padding: 5px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .gridview tr td { /* Style for data row cells */
+        padding: 5px;
+        border-bottom: 1px dotted #ccc;
+    }
